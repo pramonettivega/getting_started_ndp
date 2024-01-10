@@ -42,3 +42,9 @@ To connect with Nautilus and launch a computational instance, we will start by c
 Once we have clicked, we will be redirected into the Nautilus' JupyterHub environment.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
+
+Click on the sign in button, and enter you username credentials, or access through your institutional credential via CI Logon. Once you log in, you will be redirected to the main site for resources reservation.
+
+The type and amount of resources that we reserve depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get a reservation. In the main page, you can consults the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For this guide, we are going to work with the default set up. 
+
+The second component we must select is an appropiate Docker Image for the project we are working on. This will allow our server to load all the necessary libraries and dependencies to work on our project.
