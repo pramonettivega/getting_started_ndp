@@ -15,3 +15,5 @@ NDP is committed to open and equitable data access. All individuals with an inte
 **What do I need to know to use NDP?**
 
 NDP collection of datasets varies on a range of topics and domains. The development of . Nonetheless, familiarity with JupyterHub and Python programming is fundamental to start working with NDP. Users can consult Open Learning Resources.
+
+![Jupyter Button](https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true)
