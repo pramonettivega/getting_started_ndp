@@ -8,7 +8,7 @@ This guide has been designed to introduce you to the main services of the Nation
 
 **What is NDP?**
 
-The National Data Platform, or NDP, is a federated and extensible data ecosystem to promote collaboration, innovation, and equitable use of data on top of existing cyberinfrastructure capabilities.
+The National Data Platform, or NDP, is a federated and extensible data ecosystem to promote collaboration, innovation, and equitable use of data on top of existing National Science Foundation's (NSF) cyberinfrastructure capabilities.
 
 **What services are included?**
 
@@ -28,12 +28,17 @@ NDP collection of datasets varies on a range of topics and domains. The developm
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains datasets, open knowledge networks, as well as access to streaming data instances. For each data, NDP provides the
-The catalog is powered by the [CKAN](https://ckan.org/) open-source data management system, allowing users to open
+One of the main features of NDP is the extensive data catalog. This catalog contains datasets, open knowledge networks, as well as access to streaming data instances from different collaborative organizations.
+
+You can start searching on the catalog by
+
+In this first example, we will take a look at the *name of the dataset*. 
+
+
 
 **Launching Computing Resources**
 
-NDP allows users to explore and work on data by facilitating access to the National Science Foundation's cyberinfrastructure (CI) capabilities. For the case of this analysis, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data.
+NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of this analysis, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data.
 
 To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button next to our dataset:
 
