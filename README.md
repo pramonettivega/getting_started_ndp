@@ -39,7 +39,7 @@ To connect with Nautilus and launch a computational instance, we will start by c
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true" width="200">
 
-Once we have clicked, we will be redirected into the Nautilus' JupyterHub environment.
+After we click, we will be redirected into the Nautilus' JupyterHub environment.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
 
@@ -47,4 +47,6 @@ Click on the sign in button, and enter you username credentials, or access throu
 
 The type and amount of resources that we reserve depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get a reservation. In the main page, you can consults the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For this guide, we are going to work with the default set up. 
 
-The second component we must select is an appropiate Docker Image for the project we are working on. This will allow our server to load all the necessary libraries and dependencies to work on our project.
+The second component we must select is an appropiate Docker Image for the project we are working on. This will allow our server to load all the necessary libraries and dependencies to work on our project. For this guide, we are going to use the *name of the image*, so make sure to have it selected. 
+
+Make sure all the fields have the right selection, and launch JupyterLab. The space allocation might take a few minutes. Once we get into JupyterLab, we will have a 50 GB volume to work on our project. In this space, click on the Upload Files button to upload the notebook attached to this tutorial.
