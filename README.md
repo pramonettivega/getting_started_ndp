@@ -12,8 +12,8 @@ The National Data Platform, or NDP, is a federated and extensible data ecosystem
 
 **What services are included?**
 
-- CKAN Catalog: A federated data catalog with an extensive collection of big datasets, streaming data, and Open Knowledge Networks.
-- JupyterHub: Users can easily collaborate and develop their work through the JupyterHub Environment.
+- Data Catalog: A federated catalog with an extensive collection of big datasets, streaming data, and Open Knowledge Networks.
+- JupyterHub: Users can easily collaborate and develop their work through the [JupyterHub](https://jupyter.org/hub) Environment.
 - ML Flow: Users can monitor the status of their training jobs, as well as their performance through the incorporation of ML Flow.
 
 **Who can use NDP?**
@@ -35,7 +35,7 @@ The catalog is powered by the [CKAN](https://ckan.org/) open-source data managem
 
 NDP allows users to explore and work on data by facilitating access to the National Science Foundation's cyberinfrastructure (CI) capabilities. For the case of this analysis, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data.
 
-To connect with Nautilus and launch a computational instance, we will start by clicking at the Jupyter Hub button next to our dataset:
+To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button next to our dataset:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true" width="200">
 
