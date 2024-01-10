@@ -14,17 +14,15 @@ The National Data Platform, or NDP, is a federated and extensible data ecosystem
 
 - Data Catalog: A federated catalog with an extensive collection of big datasets, streaming data, and Open Knowledge Networks.
 - JupyterHub: Users can easily collaborate and develop their work through the [JupyterHub](https://jupyter.org/hub) Environment.
-- ML Flow: Users can monitor the status of their training jobs, as well as their performance through the incorporation of ML Flow.
+- MLflow: Users can monitor the status of their training jobs, as well as their performance through the incorporation of [MLflow](https://mlflow.org/).
 
 **Who can use NDP?**
 
 NDP is committed to open and equitable data access. All individuals with an interest in developing AI to contribute to science and to develop solutions to current societal problems, are invited to use NDP.
 
-**What do I need to know to use NDP?**
-
-NDP collection of datasets varies on a range of topics and domains. The development of . Nonetheless, familiarity with JupyterHub and Python programming is fundamental to start working with NDP. Users can consult Open Learning Resources.
-
 ## Getting Started
+
+We are going to work on our first project with NDP. Before going into the attached notebook, which contains code to run an analysis job relevant to the *mock data challenge*, we are going to take a brief exploration into the main components of the platform to get you familiar with
 
 **Catalog**
 
@@ -33,8 +31,6 @@ One of the main features of NDP is the extensive data catalog. This catalog cont
 You can start searching on the catalog by
 
 In this first example, we will take a look at the *name of the dataset*. 
-
-
 
 **Launching Computing Resources**
 
