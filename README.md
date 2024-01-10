@@ -35,6 +35,10 @@ The catalog is powered by the [CKAN](https://ckan.org/) open-source data managem
 
 NDP allows users to explore and work on data by facilitating access to the National Science Foundation's cyberinfrastructure (CI) capabilities. For the case of this analysis, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data.
 
-To connect with Nautilus and launch a computational instance, we will start by clicking at the Jupyter Hub button next to our dataset.
+To connect with Nautilus and launch a computational instance, we will start by clicking at the Jupyter Hub button next to our dataset:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true" width="200">
+
+Once we have clicked, we will be redirected into the Nautilus' JupyterHub environment.
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
