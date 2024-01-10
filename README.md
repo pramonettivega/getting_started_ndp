@@ -37,4 +37,4 @@ NDP allows users to explore and work on data by facilitating access to the Natio
 
 To connect with Nautilus and launch a computational instance, we will start by clicking at the Jupyter Hub button next to our dataset.
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true">
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true" width="200">
