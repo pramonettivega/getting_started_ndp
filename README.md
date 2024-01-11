@@ -46,7 +46,7 @@ NDP allows users to explore and work on data by facilitating access to the NSF's
 
 After we click, we will be redirected into a JupyterHub environment.
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true" width="100">
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
 
 Click on the sign in button, and enter you username credentials, or access through your institutional log-in via CI Logon. Once you log in, you will be redirected to the main site for resources reservation:
 
