@@ -43,7 +43,7 @@ After we click, we will be redirected into the Nautilus' JupyterHub environment.
 
 Click on the sign in button, and enter you username credentials, or access through your institutional log-in via CI Logon. Once you log in, you will be redirected to the main site for resources reservation:
 
-
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-10%20235226.png?raw=true">
 
 The type and amount of resources that we reserve depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get an allocation. In the main page, you can consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to work with the default set up:
 
