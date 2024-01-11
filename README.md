@@ -1,6 +1,6 @@
 # Getting Started with NDP
 
-This guide has been designed to introduce you to the main services of the National Data Platform (NDP) and allow you to run your first jobs on high computing instances. By the end of this tutorial, you will accomplish the following:
+This guide has been designed to introduce you to the main features of the National Data Platform (NDP) and allow you to work on your first project. By the end of this tutorial, you will accomplish the following:
 
 - Explore the data catalog
 - Launch a computing instance
@@ -14,9 +14,8 @@ NDP is a federated and extensible data ecosystem to promote collaboration, innov
 
 NDP posseses a varied collection of integrated services to facilitate AI development in a single platform. The services that we are going to explore in this catalog are the following:
 
-- Data Catalog: A federated catalog with an extensive collection of big datasets, streaming data, and Open Knowledge Networks from different sciences domains.
+- Data Catalog: A federated catalog with an extensive collection of datasets, streaming data, and Open Knowledge Networks from different sciences domains. The existence of this catalog is possible through the contributions of the different collaborative organizations.
 - JupyterHub: A [JupyterHub](https://jupyter.org/hub) Environment.
-- MLflow: Users can monitor the status of their training jobs, as well as their performance through the incorporation of [MLflow](https://mlflow.org/).
 
 **Who can use NDP?**
 
@@ -24,17 +23,17 @@ NDP is committed to open and equitable data access. All individuals with an inte
 
 ## Getting Started
 
-We are going to work on our first project with NDP. Our project will address the *Mock Data Challenge*, by training and evaluating a classification model to segment vegetation fuels using 3D images. Before working the attached notebook, we are going to explore the data catalog and its main components, and go to the process of launching a computing instance.
+We are going to work on our first project with NDP. Our project will address the *Mock Data Challenge*, by training and evaluating a classification model to segment vegetation fuels using 3D images. Before working the attached Jupyter notebook, we are going to explore the data catalog and its main components, and go to the process of launching a computing instance.
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains datasets, open knowledge networks, as well as streaming data from different collaborative organizations. When exploring the catalog, one of the first things you will notice is that each dataset is associated with the collaborative organization that provided the data for registration. Organizations working in the different fields of science that are interested in making their data accessible for the development of AI atop of it are encouraged to register their data into NDP's catalog. 
+One of the main features of NDP is the extensive data catalog. This catalog contains datasets, streaming data, as well as Open Knowledge Networks from different collaborative organizations. When exploring the catalog, one of the first things you will notice is that each dataset is associated with the collaborative organization sharing the data. Organizations working in the different fields of science that are interested in making their data accessible for the development of AI atop of it are encouraged to register their data into NDP's catalog. 
 
 Data location is facilitated through the incorporation of a search engine. To start, you can type *name of the dataset* into the search engine, which is the dataset that we will use for our first project:
 
 **IMAGE**
 
-Once you identify the dataset, you will notice that it has the following components:
+Once you identify the dataset, you can click on *View More*. You will notice the following components:
 
 - A description of the dataset
 - The associated metadata
@@ -42,7 +41,6 @@ Once you identify the dataset, you will notice that it has the following compone
 **Launching Computing Resources**
 
 NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of this analysis, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications.To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button next to our dataset:
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true" width="200">
 
 After we click, we will be redirected into a JupyterHub environment.
 
@@ -52,13 +50,15 @@ Click on the sign in button, and enter you username credentials, or access throu
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-10%20235226.png?raw=true">
 
-The type and amount of resources that we reserve depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get an allocation. In the main page, you can consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to work with the default set up:
+Firstly, we have to select type and amount hardware, which highly depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get an allocation. In the main page, you can consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to work with the default set up:
 
 - Region: Any
 - GPU's: 0
 - Cores: 1
 - RAM: 8GB
 - GPU type: Any
+
+The second
 
 The third component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) for the project we are working on. This will allow our server to load all libraries and dependencies that we need to work on our project. For this guide, we are going to use the *name of the image*, so make sure to have it selected. 
 
