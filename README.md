@@ -24,20 +24,27 @@ NDP is committed to open and equitable data access. All individuals with an inte
 
 ## Getting Started
 
-We are going to work on our first project with NDP. Our project will address the *Mock Data Challenge*, by generating a classification model to segment vegetation fuels using 3D images. Before working the attached notebook, we are going to take a brief exploration into the main components of the platform to get you familiar with
+We are going to work on our first project with NDP. Our project will address the *Mock Data Challenge*, by training and evaluating a classification model to segment vegetation fuels using 3D images. Before working the attached notebook, we are going to explore the data catalog and its main components, and go to the process of launching a computing instance.
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains datasets, open knowledge networks, as well as access to streaming data instances from different collaborative organizations. Organizations working in the different fields of science that are interested in making their data accessible for the development of AI atop of it are encouraged to register their data into NDP's catalog. To 
+One of the main features of NDP is the extensive data catalog. This catalog contains datasets, open knowledge networks, as well as streaming data from different collaborative organizations. When exploring the catalog, one of the first things you will notice is that each dataset is associated with the collaborative organization that provided the data for registration. Organizations working in the different fields of science that are interested in making their data accessible for the development of AI atop of it are encouraged to register their data into NDP's catalog. 
 
-In this first example, we will take a look at the *name of the dataset*. 
+Data location is facilitated through the incorporation of a search engine. To start, you can type *name of the dataset* into the search engine, which is the dataset that we will use for our first project:
+
+**IMAGE**
+
+Once you identify the dataset, you will notice that it has the following components:
+
+- A description of the dataset
+- The associated metadata
 
 **Launching Computing Resources**
 
 NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of this analysis, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications.To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button next to our dataset:
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20204427.png?raw=true" width="200">
 
-After we click, we will be redirected into the Nautilus' JupyterHub environment.
+After we click, we will be redirected into a JupyterHub environment.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true" width="100">
 
@@ -53,6 +60,8 @@ The type and amount of resources that we reserve depends on the kind of project 
 - RAM: 8GB
 - GPU type: Any
 
-The second component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) for the project we are working on. This will allow our server to load all the necessary libraries and dependencies to work on our project. For this guide, we are going to use the *name of the image*, so make sure to have it selected. 
+The third component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) for the project we are working on. This will allow our server to load all libraries and dependencies that we need to work on our project. For this guide, we are going to use the *name of the image*, so make sure to have it selected. 
+
+The fourth and final component refers to the selection of 
 
 Make sure all the fields have the right selection, and launch JupyterLab. The space allocation might take a few minutes. Once we get into JupyterLab, we will have a 50 GB volume to work on our project. In this space, click on the Upload Files button to upload the notebook attached to this tutorial.
