@@ -20,7 +20,7 @@ One critical aspect of refining wildfire modeling lies in the precision of model
 
 In this *mock challenge*, participants are tasked with building a model to improve the classification of vegetation fuels by effectively segmenting them into live and dead categories. The challenge utilizes openly accessible Terrestrial Light Detection and Ranging (LiDAR) data sourced from the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog. 
 
-## Starting the project
+## Joining the challenge
 
 Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located on the *Data Challenges* section inside of the NDP's Education Gateway. We can find it with the name of *Improving Vegetation Fuels Classification*.
 
@@ -28,7 +28,7 @@ Before starting to work on the steps of the project, we will start by formally j
 
 By joining the challenge, our ow that we have formally joined the Data Challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
 
-**Catalog**
+## Catalog
 
 One of the main features of NDP is the extensive data catalog. encompassing a wealth of resources such as datasets, streaming data, and open knowledge networks spanning diverse scientific domains. This comprehensive catalog is further enriched by collaboration with various organizations that contribute to making data accessible through the registration service. This accessibility empowers researchers and learners to engage with the data, fostering the development of innovative analysis, modeling techniques, and applications.
 
@@ -41,7 +41,7 @@ Data location is facilitated through the incorporation of a search engine. As a 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20215429.png?raw=true">
 
-**Launching Computing Resources**
+## Launching Computing Resources
 
 NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of the *mock challenge*, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications. 
 
@@ -73,7 +73,7 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
 
-**Performing our jobs and obtaining our outputs**
+## Performing our training
 
 JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from JupyterLab. 
 
@@ -95,6 +95,7 @@ Once we finish running our training jobs, and our desired outputs have been gene
 - [Wildfire Crisis](https://www.fs.usda.gov/managing-land/wildfire-crisis)
 - [MLflow Getting Started Guide](https://mlflow.org/docs/latest/getting-started/index.html)
 - [Introduction to Nautilus](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fnationalresearchplatform%2Eorg%3A443%2Fwp%2Dcontent%2Fuploads%2F2023%2F05%2FZihao%2Dand%2DZhuruis%2DNautilus%2DTutorial%2Epptx&wdSlideId=260&wdModeSwitchTime=1705034185009): This tutorial provides more details regarding the creation of pods in execution of jobs in Nautilus.
+- 
 ## Acknowledgement
 
 This tutorial recognizes the worked developed by Ivannia Gomez Moreno, whose project in developing a model for segmented vegetation fuels classification served as the sample project to demonstrate the features of NDP.
