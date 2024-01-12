@@ -76,7 +76,7 @@ JupyterLab offers a series of features so we can perform our training tasks. We 
 
 In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. We have also added a series of Python scripts which allow us to 
 
-Another important feature of NDP, is the integration of (MLflow)[https://mlflow.org/]. This integration allows to keep track of the different training iterations we perform, by saving. You can refer to the following tutorial to. The results of our can be observed through our MLflow dashboard:
+Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving. You can refer to the following tutorial to. The results of our can be observed through our MLflow dashboard:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
 
