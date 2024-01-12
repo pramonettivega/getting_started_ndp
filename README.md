@@ -1,10 +1,10 @@
 # Getting Started with NDP
 
-This guide has been designed to introduce you to the main features of the National Data Platform (NDP) and demo the creation of an NDP project aimed to address a data challenge. By the end of this tutorial, we will accomplish the following:
+This getting started tutorial has been designed as an overview to introduce learners to the main features of the National Data Platform (NDP). This exploration is complemented by a demo of an NDP project aimed to address a *mock data challenge*. By the end of this tutorial, we will accomplish the following:
 
 - Explore the data catalog
 - Launch a computing instance
-- Demonstrate a sample project
+- Present a sample project in JupyterHub
 
 ## The Challenge
 
