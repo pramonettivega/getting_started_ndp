@@ -26,7 +26,7 @@ To begin with the development of our modeling task, we will start by exploring t
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as Open Knowledge Networks from different collaborative organizations. This catalog is enriched by the several collaborating organizations that make the data accesible by registering it into NDP's Catalog, so researchers and users can develop new methods for its analysis, modeling and application.  
+One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as Open Knowledge Network from different science domains. This catalog is enriched by the several collaborating organizations that make the data accesible by registering it so researchers and learners can work on it to develop new analysis, modeling and applications. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
 
@@ -50,9 +50,9 @@ Once we access the environment, we can log in to our user space by entering our 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20182754.png?raw=true">
 
-One of the main features of NDP is the provision of an user friendly interface which facilitates the creation of a pod. After providing the required specifications, the cluster orchestrates the creation of a pod, a which operates on the allocated hardware resources such as CPU cores, GPUs, and memory. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware for efficient processing. Additionally, the cluster associates a 50GB persistent volume (PV) with the pod, ensuring that the work that we develop is seamlessly stored and persists across various sessions. 
+One of the main features of NDP is the provision of an user friendly interface which facilitates the creation of a pod. After providing the required specifications, the cluster (which works under the [Kubernetes](https://kubernetes.io/) system) orchestrates the creation of a pod, which operates on the allocated hardware resources such as CPU cores, GPUs, and memory. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware. Additionally, the cluster associates a 50GB persistent volume (PV) with the pod, ensuring that the work that we develop is seamlessly stored and persists across various sessions. 
 
-To begin with the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). We must take into consideration that increasing the amount and complexity of resources, also increases the waiting time to get an allocation. We can always consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to set up the following specifications:
+To initiate the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). It's important to bear in mind that augmenting the quantity and intricacy of these resources can lead to an extended allocation waiting time. For real-time updates on the availability of resources, we can refer to the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we set up the following specifications:
 
 - Region: Any
 - GPU's: 1
