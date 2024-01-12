@@ -66,6 +66,10 @@ The next component we must select is an appropiate [Docker Image](https://docs.d
 
 The final component of our resources allocation refers to the selection of the processor architecture. In this case, given the use of CUDA in our project, we must select an amd64 architecture. 
 
-Once we make sure all the fields have the right selection, we can start our server. Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace:
+Once we make sure all the fields have the right selection, we can start our server. Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which includes the folder with our project:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
+
+## Acknowledgement
+
+This tutorial recognizes the worked developed by Ivannia Gomez Moreno, whose project in developing a model for segmented vegetation fuels classification served as the sample project to demonstrate the features of NDP.
