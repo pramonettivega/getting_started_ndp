@@ -81,8 +81,6 @@ In this example, we have loaded into our space a Jupyter Notebook with the train
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
 
-While the execution of the training process can be directly performed by running the Jupyter Notebook, for other cases which require a more detailed
-
 To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters and specified metrics. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow):
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
