@@ -1,10 +1,10 @@
 # Getting Started with NDP
 
-This guide has been designed to introduce you to the main features of the National Data Platform (NDP) and demo the creation of an NDP project aimed to address a data challenge. By the end of this tutorial, you will accomplish the following:
+This guide has been designed to introduce you to the main features of the National Data Platform (NDP) and demo the creation of an NDP project aimed to address a data challenge. By the end of this tutorial, we will accomplish the following:
 
 - Explore the data catalog
 - Launch a computing instance
-- Execute a simple analysis
+- Demonstrate a sample project
 
 ## The Challenge
 
@@ -22,7 +22,9 @@ In this *mock challenge*, the task requires to develop a model aimed at enhancin
 
 ## Starting the project
 
-To begin with the development of our modeling task, we will start by exploring the NDP's Catalog to identify our data source.
+The first
+
+Now that we have formally joined the Data Challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
 
 **Catalog**
 
@@ -72,13 +74,17 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 **Performing our jobs and obtaining our outputs**
 
-JupyterLab offers a series of features so we can perform our training tasks. We can directly load the files into our space, or we can create new files from our space. We can also
+JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from our
 
-In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. We have also added a series of Python scripts which allow us to 
+In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. We have also added a series of Python scripts with a series of helper functions and methods that support our analysis. 
 
-Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving. You can refer to the following tutorial to. The results of our can be observed through our MLflow dashboard:
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
+
+Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving the partial . You can refer to the following tutorial to. The results of our can be observed through our MLflow dashboard:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
+
+Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. 
 
 ## Acknowledgement
 
