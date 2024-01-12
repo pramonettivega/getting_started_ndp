@@ -75,9 +75,9 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 **Performing our jobs and obtaining our outputs**
 
-JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from our
+JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from JupyterLab. 
 
-In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. We have also added a series of Python scripts with a series of helper functions and methods that support our analysis. 
+In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. Additionally, we have also added a set of Python scripts which contain a series of helper functions and methods that contribute to the execution of our training. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
 
@@ -87,10 +87,13 @@ Another important feature of NDP, is the integration of [MLflow](https://mlflow.
 
 Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. 
 
+
+
 ## Supporting Documents
 
-- https://ieeexplore.ieee.org/document/10254841
-- https://www.fs.usda.gov/managing-land/wildfire-crisis
+- [Mock Challenge Motivating Document](https://ieeexplore.ieee.org/document/10254841)
+- [Wildfire Crisis](https://www.fs.usda.gov/managing-land/wildfire-crisis)
+- [MLflow Getting Started Guide](https://mlflow.org/docs/latest/getting-started/index.html)
 
 ## Acknowledgement
 
