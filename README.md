@@ -72,9 +72,13 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 **Performing our jobs and obtaining our outputs**
 
-JupyterLab offers a series of features so we can perform our training tasks. We can directly load the files into
+JupyterLab offers a series of features so we can perform our training tasks. We can directly load the files into our space, or we can create new files from our space. We can also
 
+In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. We have also added a series of Python scripts which allow us to 
 
+Another important feature of NDP, is the integration of (MLflow)[https://mlflow.org/]. This integration allows to keep track of the different training iterations we perform, by saving. You can refer to the following tutorial to. The results of our can be observed through our MLflow dashboard:
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
 
 ## Acknowledgement
 
