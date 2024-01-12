@@ -22,7 +22,7 @@ In this *mock challenge*, the task requires to develop a model aimed at enhancin
 
 ## Starting the project
 
-Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located om the *Data Challenges* 
+Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located on the *Data Challenges* inside of the NDP's Education Gateway. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20032053.png?raw=true">
 
@@ -82,7 +82,7 @@ In this example, we have loaded into our space a Jupyter Notebook which contains
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
 
-Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving the partial . You can refer to the following tutorial to. The results of our can be observed through our MLflow dashboard:
+Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving the generated model from each iteration, as well as the main hyperparamenters and the main metrics that we specify. All this information can be consulted through the MLflow dashboard:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
 
