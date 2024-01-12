@@ -94,7 +94,7 @@ Once we finish running our training jobs, and our desired outputs have been gene
 - [Mock Challenge Motivating Document](https://ieeexplore.ieee.org/document/10254841)
 - [Wildfire Crisis](https://www.fs.usda.gov/managing-land/wildfire-crisis)
 - [MLflow Getting Started Guide](https://mlflow.org/docs/latest/getting-started/index.html)
-- [Introduction to Nautilus](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fnationalresearchplatform%2Eorg%3A443%2Fwp%2Dcontent%2Fuploads%2F2023%2F05%2FZihao%2Dand%2DZhuruis%2DNautilus%2DTutorial%2Epptx&wdSlideId=260&wdModeSwitchTime=1705034185009): This tutorial provides more details regarding the creation of pods in execution of jobs in Nautilus.
+- [Introduction to Nautilus](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fnationalresearchplatform%2Eorg%3A443%2Fwp%2Dcontent%2Fuploads%2F2023%2F05%2FZihao%2Dand%2DZhuruis%2DNautilus%2DTutorial%2Epptx&wdSlideId=260&wdModeSwitchTime=1705034185009): This tutorial provides more details regarding the creation of pods and the execution of jobs in Nautilus.
   
 ## Acknowledgement
 
