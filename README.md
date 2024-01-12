@@ -87,8 +87,6 @@ Another important feature of NDP, is the integration of [MLflow](https://mlflow.
 
 Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. 
 
-
-
 ## Supporting Documents
 
 - [Mock Challenge Motivating Document](https://ieeexplore.ieee.org/document/10254841)
@@ -98,3 +96,5 @@ Once we finish running our training jobs, and our desired outputs have been gene
 ## Acknowledgement
 
 This tutorial recognizes the worked developed by Ivannia Gomez Moreno, whose project in developing a model for segmented vegetation fuels classification served as the sample project to demonstrate the features of NDP.
+
+**CLOSING NOTE:** This tutorial is part of the BETA version of NDP, and as such, it may contain some imperfections or errors. We welcome all valuable feedback to assist us in refining the content, enhancing the structure, and improving overall clarity.
