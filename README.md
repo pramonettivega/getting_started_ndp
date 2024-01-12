@@ -16,11 +16,11 @@ One critical aspect of refining wildfire modeling lies in the precision of model
 
 **Task**
 
-In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels. This task leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the Interagency Ecosystem LiDAR Monitoring (IntELiMon) portal.
+In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels. This task leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the [Interagency Ecosystem LiDAR Monitoring (IntELiMon) portal](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/).
 
 ## Starting the project
 
-To begin with the development of our modeling task, we will start by identifying our data source in the NDP Catalog.
+To begin with the development of our modeling task, we will start by exploring the NDP's Catalog to identify our data source.
 
 **Catalog**
 
@@ -48,7 +48,9 @@ Once we access the environment, we can log in to our user space by entering our 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20182754.png?raw=true">
 
-Firstly, we have to select type and amount hardware, which highly depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get an allocation. In the main page, you can consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to set up the following specifications
+The first
+
+Firstly, we have to select type and amount hardware, which highly depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get an allocation. In the main page, you can consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to set up the following specifications:
 
 - Region: Any
 - GPU's: 1
@@ -56,10 +58,12 @@ Firstly, we have to select type and amount hardware, which highly depends on the
 - RAM: 16GB
 - GPU type: NVIDIA-GeForce-GTX-1080-Ti
 
-Secondly, we have the choice to mount a shared memory folder for the case of applications using pytorch. As we this sample project does not use the pytorch library, we are going to omit the checkbox.
+Secondly, we have the choice to mount a shared memory folder for the case of applications using pytorch. As this sample project does not use the pytorch library, we can omit the checkbox.
 
 The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) for the project we are working on. This will allow our server to load all libraries and dependencies that we need to work on our project. As our project relies on the TensorFlow library, we are going to use the *CUDA* image, so make sure to have it selected. 
 
-The final component of our resources allocation refers to the selection of the architecture 
+The final component of our resources allocation refers to the selection of the processor architecture. In this case, given the use of CUDA in our project, we must select an amd64 architecture. 
 
-Make sure all the fields have the right selection, and launch JupyterLab. The space allocation might take a few minutes. Once we get into JupyterLab, we will have a 50 GB volume to work on our project. In this space, click on the Upload Files button to upload the notebook attached to this tutorial.
+Once we make sure all the fields have the right selection, we can start our server. Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace:
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
