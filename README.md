@@ -6,24 +6,21 @@ This guide has been designed to introduce you to the main features of the Nation
 - Launch a computing instance
 - Execute a simple analysis
 
-**What is NDP?**
+## The Challenge
 
-NDP is a federated and extensible data ecosystem to promote collaboration, innovation, and equitable access and use of data on top of existing National Science Foundation's (NSF) cyberinfrastructure capabilities. 
+In recent years, the United States has found itself immersed in what the US Forest Service describes as a "wildfire crisis." The consequences have been particularly pronounced in the western region, where some of the most destructive wildfires in the country's history have affected vulnerable communities in states such as Washington, Colorado, Arizona, Oregon, and California. This crisis has not only incurred billions of dollars in damages and the loss of extensive wildlife habitat but, most significantly, has resulted in tragic human casualties. In response to this situation, the scientific community has underscored the need of addressing the crisis through the development of knowledge and tools that can facilitate more effective fire management actions.
 
-**What services are included?**
+Integral to fire management is the field of wildfire modeling, which allows for the prediction of fire behavior under diverse conditions. Such models play a pivotal role in identifying high-risk areas, conducting prescribed burns more efficiently, optimizing the allocation of fire response resources, designing suppression strategies, and enhancing community resilience to potential wildfire risks.
 
-NDP posseses a varied collection of integrated services to facilitate AI development in a single platform. The services that we are going to explore in this guide are the following:
+One critical aspect of refining wildfire modeling lies in the precision of modeling high-resolution 3D terrestrial vegetation fuels images. The use of terrestrial laser scans has become more prominent in collecting field images, enabling researchers to identify and classify different types of vegetation fuels in a given area. Therefore, an improved and precise classification of fuels significantly enhances the efficacy of current wildfire modeling approaches.
 
-- Data Catalog: A federated catalog with an extensive collection of datasets, streaming data, and Open Knowledge Networks from different sciences domains. The existence of this catalog is possible through the contributions of the different collaborative organizations.
-- JupyterHub: To facilitate work and analysis on data, a [JupyterHub](https://jupyter.org/hub) is integrated when launching a computational instances. Furthermore, a persistent volume of 50GB is mounted within the hub, allowing users to persist their work through the process of their project. 
+## Task
 
-**Who can use NDP?**
+For this *mock challenge*, participants are invited to develop a model aimed at enhancing the classification of vegetation fuels. This task leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the Interagency Ecosystem LiDAR Monitoring (IntELiMon) portal.
 
-NDP is committed to open and equitable data access. All individuals with an interest in developing AI to contribute to science and to develop solutions to current societal problems, are invited to use NDP.
+## Starting to project
 
-## Getting Started
-
-We are going to work on our first project with NDP. Our project will address the *Mock Data Challenge*, by training and evaluating a classification model to segment vegetation fuels using 3D images. Before going through the project itself, we are going to explore the data catalog and its main components, and go to the process of launching a computing instance from it.
+To begin with the development of our modeling task, we will start by identifying our data source in the NDP Catalog.
 
 **Catalog**
 
