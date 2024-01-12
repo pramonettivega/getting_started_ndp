@@ -1,10 +1,10 @@
 # Getting Started with NDP
 
-This getting started tutorial has been designed as an overview to introduce learners to the main features of the National Data Platform (NDP). This exploration is complemented by a demo of an NDP project aimed to address a *mock data challenge*. By the end of this tutorial, we will accomplish the following:
+This introductory tutorial aims to provide learners with a comprehensive overview of some of the key features of the National Data Platform (NDP). The exploration is complemented by a sample demonstration of an NDP project designed to address a *mock data challenge*. By the end of this tutorial, we will accomplish the following:
 
-- Explore the data catalog
-- Launch a computing instance
-- Present a sample project in JupyterHub
+- Navigate the data catalog
+- Initiate a computing instance
+- Showcase a sample project using the JupyterHub environment in a high-performance computing instance.
 
 ## The Challenge
 
@@ -18,19 +18,19 @@ One critical aspect of refining wildfire modeling lies in the precision of model
 
 **Task**
 
-In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels, segmentating the between live and death fuels. This challenge leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog. 
+In this *mock challenge*, participants are tasked with building a model to improve the classification of vegetation fuels by effectively segmenting them into live and dead categories. The challenge utilizes openly accessible Terrestrial Light Detection and Ranging (LiDAR) data sourced from the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog. 
 
 ## Starting the project
 
-Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located on the *Data Challenges* inside of the NDP's Education Gateway. 
+Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located on the *Data Challenges* section inside of the NDP's Education Gateway. We can find it with the name of *Improving Vegetation Fuels Classification*.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20032053.png?raw=true">
 
-Now that we have formally joined the Data Challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
+By joining the challenge, our ow that we have formally joined the Data Challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as open knowledge networks from different science domains. This catalog is enriched by the several collaborating organizations that make the data accesible through the registration service, so researchers and learners can work on it to develop new analysis, modeling and applications. 
+One of the main features of NDP is the extensive data catalog. encompassing a wealth of resources such as datasets, streaming data, and open knowledge networks spanning diverse scientific domains. This comprehensive catalog is further enriched by collaboration with various organizations that contribute to making data accessible through the registration service. This accessibility empowers researchers and learners to engage with the data, fostering the development of innovative analysis, modeling techniques, and applications.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
 
