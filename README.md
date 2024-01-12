@@ -22,7 +22,9 @@ In this *mock challenge*, the task requires to develop a model aimed at enhancin
 
 ## Starting the project
 
-The first
+Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located om the *Data Challenges* 
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20032053.png?raw=true">
 
 Now that we have formally joined the Data Challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
 
