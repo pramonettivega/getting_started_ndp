@@ -18,7 +18,7 @@ One critical aspect of refining wildfire modeling lies in the precision of model
 
 **Task**
 
-In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels. This task leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog.
+In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels, segmentating the between live and death fuels. This challenge leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog. 
 
 ## Starting the project
 
@@ -46,7 +46,7 @@ To connect with Nautilus and launch a computational instance, we will start by c
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
 
-Once we access the environment, we can log in to our user space by entering our username credentials, or by accessing through our institutional credentials (for the case of academic institutions) via [CI Logon](https://www.cilogon.org/). Once you log in, you will be redirected to the main site for resources reservation:
+After accessing the environment, we can log in to our designated user space using either our username credentials or, in the case of members of institutions with federated access to NSF's infrastructure, by utilizing institutional credentials via  [CI Logon](https://www.cilogon.org/). Once you log in, you will be redirected to the main site for resources reservation:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20182754.png?raw=true">
 
@@ -60,23 +60,20 @@ To initiate the creation of a pod, we begin by specifying the location, amount, 
 - RAM: 16GB
 - GPU type: NVIDIA-GeForce-GTX-1080-Ti
 
-Secondly, we have the choice to mount a shared memory folder into our pod for the case of applications using pytorch. As this sample project does not use the pytorch library, we can omit the checkbox.
+Secondly, we have the choice to mount a shared memory folder into our pod, particularly for applications utilizing PyTorch. Since our sample project does not involve the use of the PyTorch library, the checkbox for this feature can be omitted.
 
-The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) for the project we are working on. This will allow our server to load all libraries and dependencies that we need to work on our project. As our project relies on the TensorFlow library, we are going to use the *CUDA* image, so make sure to have it selected. 
+The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) tailored for the specific requirements of the project. This ensures that the server loads all the necessary libraries and dependencies crucial for the project's execution. Given that our project relies on the TensorFlow library, we opt for the *CUDA* image to ensure compatibility and optimal performance.
 
-The final component of our resources allocation refers to the selection of the processor architecture. In this case, given the use of CUDA in our project, we must select an amd64 architecture. 
+The final aspect of our resource allocation involves selecting the processor architecture. In this case, due to the utilization of CUDA in our project, we must choose an amd64 architecture. 
 
-Once we make sure all the fields have the right selection, we can start our server. Behind the scenes, the cluster orchestrates the creation of a pod, a  which operates on the allocated hardware resources. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware for efficient processing. Additionally, the cluster associates a persistent volume (PV) with the pod, ensuring that your work is seamlessly stored and persists across various sessions. This integration of resources and storage mechanisms optimizes the execution and longevity of your computing environment within the cluster.
-
-Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which includes the folder with our project:
+Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which in this case includes the folder with our project:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
 
 **Performing our jobs and obtaining our outputs**
 
-Once we get inside the JupyterLab environment, we can either interact.
+JupyterLab offers a series of features so we can perform our training tasks. We can directly load the files into
 
-For this sample, we are taking
 
 
 ## Acknowledgement
