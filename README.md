@@ -26,7 +26,7 @@ Before starting to work on the steps of the project, we will start by formally j
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20032053.png?raw=true">
 
-By joining the challenge, our ow that we have formally joined the Data Challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
+Once after we have joined the challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
 
 ## Catalog
 
