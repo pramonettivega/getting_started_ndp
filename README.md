@@ -34,11 +34,10 @@ One of the main features of NDP is the extensive data catalog. encompassing a we
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
 
-Data location is facilitated through the incorporation of a search engine. To start, you can type *IntELiMon* into the search engine, which is the data used for the *mock challenge* project. Once we identify the dataset, we can click on *View More*, and get the following information:
+Data location is facilitated through the incorporation of a search engine. As a starting point, we can type *IntELiMon* into the search engine, corresponding to the data utilized for the mock challenge project. Once the dataset is identified, clicking on View More provides access to the following information:
 
-- A description of the dataset
-- A *View More* function, which provides information regarding all the files and metadata information that conforms the dataset. 
-- A JupyterHub button, which allows the user to initiate a computing instance to start working directly with the dataset.
+- A comprehensive description detailing the content of the dataset.
+- A list of all supplementary files along with metadata information.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20215429.png?raw=true">
 
