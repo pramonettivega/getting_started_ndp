@@ -18,7 +18,7 @@ One critical aspect of refining wildfire modeling lies in the precision of model
 
 **Task**
 
-In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels. This task leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal.
+In this *mock challenge*, the task requires to develop a model aimed at enhancing the classification of vegetation fuels. This task leverages on the openly accessible Terrestrial Light Detection and Ranging (LiDAR) data provided by the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog.
 
 ## Starting the project
 
@@ -42,11 +42,7 @@ Data location is facilitated through the incorporation of a search engine. To st
 
 NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of the *mock challenge*, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications. 
 
-To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button next to our dataset:
-
-
-
-After we click, we will be redirected into a JupyterHub environment.
+To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button in our dataset, which will redirect us to the JupyterHub environment. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
 
@@ -54,9 +50,9 @@ Once we access the environment, we can log in to our user space by entering our 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20182754.png?raw=true">
 
-One of the main features of NDP is the automatic provision of a 50GB Persistent Volume to each user, allowing persist the user's work through different servers. Furthermore, the JupyterHub environment is provisioned with an user-friendly interface for resources request. 
+One of the main features of NDP is the provision of an user friendly interface which facilitates the creation of a pod. After providing the required specifications, the cluster orchestrates the creation of a pod, a which operates on the allocated hardware resources such as CPU cores, GPUs, and memory. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware for efficient processing. Additionally, the cluster associates a 50GB persistent volume (PV) with the pod, ensuring that the work that we develop is seamlessly stored and persists across various sessions. 
 
-Firstly, we have to select type and amount hardware, which highly depends on the kind of project we are working on. Take into consideration that increasing the number and complexity of resources, also increases the waiting time to get an allocation. In the main page, you can consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to set up the following specifications:
+To begin with the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). We must take into consideration that increasing the amount and complexity of resources, also increases the waiting time to get an allocation. We can always consult the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we are going to set up the following specifications:
 
 - Region: Any
 - GPU's: 1
@@ -64,18 +60,23 @@ Firstly, we have to select type and amount hardware, which highly depends on the
 - RAM: 16GB
 - GPU type: NVIDIA-GeForce-GTX-1080-Ti
 
-Secondly, we have the choice to mount a shared memory folder for the case of applications using pytorch. As this sample project does not use the pytorch library, we can omit the checkbox.
+Secondly, we have the choice to mount a shared memory folder into our pod for the case of applications using pytorch. As this sample project does not use the pytorch library, we can omit the checkbox.
 
 The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) for the project we are working on. This will allow our server to load all libraries and dependencies that we need to work on our project. As our project relies on the TensorFlow library, we are going to use the *CUDA* image, so make sure to have it selected. 
 
 The final component of our resources allocation refers to the selection of the processor architecture. In this case, given the use of CUDA in our project, we must select an amd64 architecture. 
 
-Once we make sure all the fields have the right selection, we can start our server. Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which includes the folder with our project:
+Once we make sure all the fields have the right selection, we can start our server. Behind the scenes, the cluster orchestrates the creation of a pod, a  which operates on the allocated hardware resources. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware for efficient processing. Additionally, the cluster associates a persistent volume (PV) with the pod, ensuring that your work is seamlessly stored and persists across various sessions. This integration of resources and storage mechanisms optimizes the execution and longevity of your computing environment within the cluster.
+
+Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which includes the folder with our project:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
 
 **Performing our jobs and obtaining our outputs**
 
+Once we get inside the JupyterLab environment, we can either interact.
+
+For this sample, we are taking
 
 
 ## Acknowledgement
