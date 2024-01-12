@@ -26,7 +26,7 @@ To begin with the development of our modeling task, we will start by exploring t
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as Open Knowledge Network from different science domains. This catalog is enriched by the several collaborating organizations that make the data accesible by registering it so researchers and learners can work on it to develop new analysis, modeling and applications. 
+One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as open knowledge networks from different science domains. This catalog is enriched by the several collaborating organizations that make the data accesible through the registration service, so researchers and learners can work on it to develop new analysis, modeling and applications. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
 
