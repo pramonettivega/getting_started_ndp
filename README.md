@@ -26,25 +26,27 @@ To begin with the development of our modeling task, we will start by exploring t
 
 **Catalog**
 
-One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as Open Knowledge Networks from different collaborative organizations. When exploring the catalog, one of the first things you will notice is that each dataset is associated with the collaborative organization sharing the data. 
+One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as Open Knowledge Networks from different collaborative organizations. This catalog is enriched by the several collaborating organizations that make the data accesible by registering it into NDP's Catalog, so researchers and users can develop new methods for its analysis, modeling and application.  
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
 
-Data location is facilitated through the incorporation of a search engine. To start, you can type *IntELiMon* into the search engine, which is the data used for the *mock challenge* project:
+Data location is facilitated through the incorporation of a search engine. To start, you can type *IntELiMon* into the search engine, which is the data used for the *mock challenge* project. Once we identify the dataset, we can click on *View More*, and get the following information:
 
-**IMAGE**
-
-Once you identify the dataset, you can click on *View More*. You will notice the following components:
+<
 
 - A description of the dataset
-- A "View More" function, which provides information regarding all the files and metadata information that conforms the dataset. 
+- A *View More* function, which provides information regarding all the files and metadata information that conforms the dataset. 
 - A JupyterHub button, which allows the user to initiate a computing instance to start working directly with the dataset.
+
+Clicking at *View More*
 
 **Launching Computing Resources**
 
 NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of the *mock challenge*, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications. 
 
 To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button next to our dataset:
+
+
 
 After we click, we will be redirected into a JupyterHub environment.
 
