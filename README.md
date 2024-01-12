@@ -82,11 +82,16 @@ In this example, we have loaded into our space a Jupyter Notebook which contains
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
 
-Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving the generated model from each iteration, as well as the main hyperparamenters and the main metrics that we specify. All this information can be consulted through the MLflow dashboard:
+Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving the generated model from each iteration, as well as the main hyperparamenters and the main metrics that we specify. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow):
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
 
 Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. 
+
+## Supporting Documents
+
+- https://ieeexplore.ieee.org/document/10254841
+- https://www.fs.usda.gov/managing-land/wildfire-crisis
 
 ## Acknowledgement
 
