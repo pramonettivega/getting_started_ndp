@@ -8,6 +8,8 @@ This guide has been designed to introduce you to the main features of the Nation
 
 ## The Challenge
 
+The demonstration of this tutorial relies on the following *mock challenge*.
+
 In recent years, the United States has found itself immersed in what the US Forest Service describes as a "wildfire crisis." The consequences have been particularly pronounced in the western region, where some of the most destructive wildfires in the country's history have affected vulnerable communities in states such as Washington, Colorado, Arizona, Oregon, and California. This crisis has not only incurred billions of dollars in damages and the loss of extensive wildlife habitat but, most significantly, has resulted in tragic human casualties. In response to this situation, the scientific community has underscored the need of addressing the crisis through the development of knowledge and tools that can facilitate more effective fire management actions.
 
 Integral to fire management is the field of wildfire modeling, which allows for the prediction of fire behavior under diverse conditions. Such models play a pivotal role in identifying high-risk areas, conducting prescribed burns more efficiently, optimizing the allocation of fire response resources, designing suppression strategies, and enhancing community resilience to potential wildfire risks.
@@ -26,7 +28,9 @@ To begin with the development of our modeling task, we will start by exploring t
 
 One of the main features of NDP is the extensive data catalog. This catalog contains access to datasets, streaming data, as well as Open Knowledge Networks from different collaborative organizations. When exploring the catalog, one of the first things you will notice is that each dataset is associated with the collaborative organization sharing the data. 
 
-Data location is facilitated through the incorporation of a search engine. To start, you can type *IntELiMon* into the search engine, which is the datas used for the *mock challenge* project:
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
+
+Data location is facilitated through the incorporation of a search engine. To start, you can type *IntELiMon* into the search engine, which is the data used for the *mock challenge* project:
 
 **IMAGE**
 
@@ -69,6 +73,10 @@ The final component of our resources allocation refers to the selection of the p
 Once we make sure all the fields have the right selection, we can start our server. Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which includes the folder with our project:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
+
+**Performing our jobs and obtaining our outputs**
+
+
 
 ## Acknowledgement
 
