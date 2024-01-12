@@ -77,11 +77,13 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from JupyterLab. 
 
-In this example, we have loaded into our space a Jupyter Notebook which contains the training code for our modeling task. Additionally, we have also added a set of Python scripts which contain a series of helper functions and methods that contribute to the execution of our training. 
+In this example, we have loaded into our space a Jupyter Notebook with the training code for our modeling task. Additionally, we have added a set of Python scripts which contain a series of helper functions and methods that contribute to the execution of our training. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
 
-Another important feature of NDP, is the integration of [MLflow](https://mlflow.org/). This integration allows to keep track of the different training iterations we perform, by saving the generated model from each iteration, as well as the main hyperparamenters and the main metrics that we specify. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow):
+While the execution of the training process can be directly performed by running the Jupyter Notebook, for other cases which require a more detailed
+
+To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters and specified metrics. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow):
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
 
@@ -94,7 +96,7 @@ Once we finish running our training jobs, and our desired outputs have been gene
 - [Mock Challenge Motivating Document](https://ieeexplore.ieee.org/document/10254841)
 - [Wildfire Crisis](https://www.fs.usda.gov/managing-land/wildfire-crisis)
 - [MLflow Getting Started Guide](https://mlflow.org/docs/latest/getting-started/index.html)
-
+- [Introduction](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fnationalresearchplatform%2Eorg%3A443%2Fwp%2Dcontent%2Fuploads%2F2023%2F05%2FZihao%2Dand%2DZhuruis%2DNautilus%2DTutorial%2Epptx&wdSlideId=260&wdModeSwitchTime=1705034185009): This tutorial provides more details regarding the creation of pods in execution of jobs in Nautilus.
 ## Acknowledgement
 
 This tutorial recognizes the worked developed by Ivannia Gomez Moreno, whose project in developing a model for segmented vegetation fuels classification served as the sample project to demonstrate the features of NDP.
