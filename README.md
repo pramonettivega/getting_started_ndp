@@ -100,6 +100,8 @@ Once we finish running our training jobs, and our desired outputs have been gene
 
 This tutorial recognizes the worked developed by Ivannia Gomez Moreno, whose project in developing a model for segmented vegetation fuels classification served as the sample project to demonstrate the features of NDP.
 
-## CLOSING NOTE 
+## Closing Note 
 
 This tutorial is part of the BETA version of NDP, and as such, it may contain some imperfections or errors. We welcome all valuable feedback to assist us in refining the content, enhancing the structure, and improving overall clarity.
+
+Contact: pramonettivega@ucsd.edu
