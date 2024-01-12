@@ -85,7 +85,9 @@ Another important feature of NDP, is the integration of [MLflow](https://mlflow.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
 
-Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. 
+Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. For the case of our example, we compressed our outputs folder into a zip file, so it can be downloaded from JupyterLab
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20035201.png?raw=true">
 
 ## Supporting Documents
 
@@ -97,4 +99,6 @@ Once we finish running our training jobs, and our desired outputs have been gene
 
 This tutorial recognizes the worked developed by Ivannia Gomez Moreno, whose project in developing a model for segmented vegetation fuels classification served as the sample project to demonstrate the features of NDP.
 
-**CLOSING NOTE:** This tutorial is part of the BETA version of NDP, and as such, it may contain some imperfections or errors. We welcome all valuable feedback to assist us in refining the content, enhancing the structure, and improving overall clarity.
+## CLOSING NOTE 
+
+This tutorial is part of the BETA version of NDP, and as such, it may contain some imperfections or errors. We welcome all valuable feedback to assist us in refining the content, enhancing the structure, and improving overall clarity.
