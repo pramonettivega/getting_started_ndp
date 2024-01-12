@@ -6,25 +6,13 @@ This introductory guide aims to provide collaborators with a comprehensive overv
 - Initiate a computing instance
 - Perform an analysis using the JupyterHub environment in a high-performance computing instance.
 
-**Task**
-
-In this *mock challenge*, participants are tasked with building a model to improve the classification of vegetation fuels by effectively segmenting them into live and dead categories. The challenge utilizes openly accessible Terrestrial Light Detection and Ranging (LiDAR) data sourced from the [Interagency Ecosystem LiDAR Monitoring (IntELiMon)](https://dmsdata.cr.usgs.gov/lidar-monitoring/viewer/) portal, which is now accessible through the NDP catalog. 
-
-## Joining the challenge
-
-Before starting to work on the steps of the project, we will start by formally joining the challenge. The *mock challenge* can be publicly located on the *Data Challenges* section inside of the NDP's Education Gateway. We can find it with the name of *Improving Vegetation Fuels Classification*.
-
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20032053.png?raw=true">
-
-Once after we have joined the challenge, we can start our process of developing a project. As a first step, we will explore the NDP's Catalog to identify our data source.
-
 ## Catalog
 
-One of the main features of NDP is the extensive data catalog. encompassing a wealth of resources such as datasets, streaming data, and open knowledge networks spanning diverse scientific domains. This comprehensive catalog is further enriched by collaboration with various organizations that contribute to making data accessible through the registration service. This accessibility empowers researchers and learners to engage with the data, fostering the development of innovative analysis, modeling techniques, and applications.
+One of the main features of NDP is the extensive data catalog,  which encompasses a variety of resources such as datasets, streaming data, and open knowledge networks spanning diverse scientific domains. This comprehensive catalog is further enriched by collaboration with various organizations and researchers that contribute to making data accessible through the registration service. This accessibility empowers researchers and learners to engage with the data, fostering the development of innovative analysis, modeling techniques, and applications.
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20214248.png?raw=true">
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20125934.png?raw=true">
 
-Data location is facilitated through the incorporation of a search engine. As a starting point, we can type *IntELiMon* into the search engine, corresponding to the data utilized for the mock challenge project. Once the dataset is identified, clicking on View More provides access to the following information:
+Data location is facilitated through the incorporation of a search engine. As a starting point, we can type *Unifor* into the search engine, corresponding to the data utilized for the demonstration project. Once the dataset is identified, clicking on View More provides access to the following information:
 
 - A comprehensive description detailing the content of the dataset.
 - A list of all supplementary files along with metadata information.
