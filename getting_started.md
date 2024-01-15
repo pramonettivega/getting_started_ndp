@@ -1,10 +1,16 @@
 # Getting Started with NDP
 
-This introductory guide aims to provide collaborators with a comprehensive overview of some of the key features of the National Data Platform (NDP). The exploration is complemented by a sample demonstration of an NDP project designed to address a *mock data challenge*. By the end of this tutorial, we will accomplish the following:
+This introductory guide aims to provide collaborators with a comprehensive overview of some of the key features of the National Data Platform (NDP). The exploration is complemented by a sample exploratory data analysis. By the end of this tutorial, we will accomplish the following:
 
 - Navigate the data catalog
 - Initiate a computing instance
 - Perform an analysis using the JupyterHub environment in a high-performance computing instance.
+
+## What is NDP?
+
+NDP is a federated and extensible data ecosystem that fosters collaboration, innovation and equitable data use, leveraging existing Cyberinfrastructure (CI) capabilities.
+
+## Who can use NDP?
 
 ## Catalog
 
