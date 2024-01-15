@@ -20,7 +20,7 @@ One of the main features of NDP is the extensive data catalog,  which encompasse
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20125934.png?raw=true">
 
-Data location is facilitated through the incorporation of a search engine. As a starting point, we can type *Unifor* into the search engine, corresponding to the data utilized for the demonstration project. Once the dataset is identified, clicking on View More provides access to the following information:
+Data location is facilitated through the incorporation of a search engine. As a starting point, we can type *Uniform Fuels* into the search engine, corresponding to the data utilized for the demonstration project. Once the dataset is identified, clicking on *View More* will open a window with the following information:
 
 - A comprehensive description detailing the content of the dataset.
 - A list of all supplementary files along with metadata information.
@@ -29,7 +29,7 @@ Data location is facilitated through the incorporation of a search engine. As a 
 
 ## Launching Computing Resources
 
-NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of the *mock challenge*, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications. 
+NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of our demonstration dataset, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications. 
 
 To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button in our dataset, which will redirect us to the JupyterHub environment. 
 
@@ -41,7 +41,7 @@ After accessing the environment, we can log in to our designated user space usin
 
 One of the main features of NDP is the provision of an user friendly interface which facilitates the creation of a pod. After providing the required specifications, the cluster (which works under the [Kubernetes](https://kubernetes.io/) system) orchestrates the creation of a pod, which operates on the allocated hardware resources such as CPU cores, GPUs, and memory. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware. Additionally, the cluster associates a 50GB persistent volume (PV) with the pod, ensuring that the work that we develop is seamlessly stored and persists across various sessions. 
 
-To initiate the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). It's important to bear in mind that augmenting the quantity and intricacy of these resources can lead to an extended allocation waiting time. For real-time updates on the availability of resources, we can refer to the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample project, we set up the following specifications:
+To initiate the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). It's important to bear in mind that augmenting the quantity and intricacy of these resources can lead to an extended allocation waiting time. For real-time updates on the availability of resources, we can refer to the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample analysis, we set up the following specifications:
 
 - Region: Any
 - GPU's: 1
@@ -49,9 +49,9 @@ To initiate the creation of a pod, we begin by specifying the location, amount, 
 - RAM: 16GB
 - GPU type: NVIDIA-GeForce-GTX-1080-Ti
 
-Secondly, we have the choice to mount a shared memory folder into our pod, particularly for applications utilizing PyTorch. Since our sample project does not involve the use of the PyTorch library, the checkbox for this feature can be omitted.
+Secondly, we have the choice to mount a shared memory folder into our pod, particularly for applications utilizing PyTorch. Since our sample analysis involves the use of the PyTorch library, we must select the checkbox for this feature.
 
-The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) tailored for the specific requirements of the project. This ensures that the server loads all the necessary libraries and dependencies crucial for the project's execution. Given that our project relies on the TensorFlow library, we opt for the *CUDA* image to ensure compatibility and optimal performance.
+The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) tailored for the specific requirements of the project we are working on. This ensures that the server loads all the necessary libraries and dependencies crucial for the project's execution. For this sample analysis, we have provided an image which will create a directory within JupyterLab with the data and our sample analysis Jupyter Notebook once will launch our instance. Make sure to select *Physics Guided Machine Learning Starter Code*.
 
 The final aspect of our resource allocation involves selecting the processor architecture. In this case, due to the utilization of CUDA in our project, we must choose an amd64 architecture. 
 
