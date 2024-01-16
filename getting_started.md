@@ -97,6 +97,10 @@ By clicking on the name of the run, we can see the information that we saved for
 
 **NOTE:** If decided to run the notebook, take into consideration that the full training under the hardware specifications defined previously might take up to three hours.
 
+After finishing our work in JupyterLab, it is important to stop our server. To do this, go to the file window in JupyterLab and select *Hub Control Panel*. This will redirect you to JupyterHub and display your running servers (in case you have more than one). Click on *Stop My Server* to stop the current server.
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-16%20103042.png?raw=true">
+
 ## Supporting Documents
 
 - [MLflow Getting Started Guide](https://mlflow.org/docs/latest/getting-started/index.html)
