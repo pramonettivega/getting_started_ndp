@@ -87,7 +87,7 @@ By clicking on the name of the run, we can see the information that we saved for
 
 4. Perform the training and testing of the model.
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20183823.png?raw=true"
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20183823.png?raw=true">
 
 5. Produce the model and output images to store in the results directory.
 
