@@ -67,15 +67,21 @@ We are going to execute the two notebooks provided in the example. The first one
 
 The second notebook, contains code that performs a model training, leveraging on predefined classes that you can explore on the *unet* directory. The notebook performs the following tasks:
 
-1. It loads 
+1. It loads the relevant libraries and sets up de directories to store our results.
 
-To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters, specified metrics and relevant visualitazionts. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow). In the following, you will see on the left side, 
+<img="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20175155.png?raw=true">
+
+3. It set ups the experiment, with the relevant metrics and parameters.
+4. It starts a experiment session in [MLflow](https://mlflow.org/) to save our model specifications and results.
+5. It performs the training and testing of the model.
+6. It produces
+7. It sends the final products to MLflow.
+
+To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters, specified metrics and relevant visualitazionts. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow). In the following, you will see on the left side, the different experiments we have 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20173255.png?raw=true">
 
-Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. For the case of our example, we compressed our outputs folder into a zip file, so it can be downloaded from JupyterLab
-
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20035201.png?raw=true">
+By clicking on the name of the run, we can see the information that we saved for our experiment
 
 ## Supporting Documents
 
