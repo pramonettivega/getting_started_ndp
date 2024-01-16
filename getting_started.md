@@ -65,7 +65,7 @@ We are going to execute the two notebooks provided in the example. The first one
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20172040.png?raw=true">
 
-More details can be found in the
+More details can be found in the notebook.
 
 The second notebook, contains code that performs a model training, leveraging on predefined classes that you can explore on the *unet* directory. Running the notebook will perform the following tasks:
 
