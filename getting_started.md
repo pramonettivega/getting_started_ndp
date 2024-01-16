@@ -57,7 +57,7 @@ The final aspect of our resource allocation involves selecting the processor arc
 
 Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which in this case includes the folder with our project. In this case, our workspace has set up the working files for our example: 
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20132537.png?raw=true">
 
 ## Performing our Analysis
 
