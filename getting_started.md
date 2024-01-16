@@ -61,17 +61,17 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 ## Performing our Analysis
 
-In our analysis, we are going to perform a simple Machine Learning
+We are going to execute the two notebooks provided in the example. The first one that we are going to open, is *pgml_eda.ipynb*. This notebook provides a simple exploratory data analysis over the Uniform Fuels QUIC-Fire simulation data. You can either run cell by cell, or go to the *Run* window in JupyteLab and select *Run All Cells*. The notebook should generate the following charts:
 
-JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from JupyterLab. 
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20172040.png?raw=true">
 
-In this example, we have loaded into our space a Jupyter Notebook with the training code for our modeling task. Additionally, we have added a set of Python scripts which contain a series of helper functions and methods that contribute to the execution of our training. 
+The second notebook, contains code that performs a model training, leveraging on predefined classes that you can explore on the *unet* directory. The notebook performs the following tasks:
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20034059.png?raw=true">
+1. It loads 
 
-To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters and specified metrics. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow):
+To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters, specified metrics and relevant visualitazionts. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow). In the following, you will see on the left side, 
 
-<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-12%20010755.png?raw=true">
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20173255.png?raw=true">
 
 Once we finish running our training jobs, and our desired outputs have been generated inside of our volume, we can download our work to our local instances, by right clicking on the file(s) (in this case the output folder), and selecting the choice of downloading. For the case of our example, we compressed our outputs folder into a zip file, so it can be downloaded from JupyterLab
 
