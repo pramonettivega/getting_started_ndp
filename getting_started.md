@@ -69,7 +69,7 @@ The second notebook, contains code that performs a model training, leveraging on
 
 1. It loads the relevant libraries and sets up de directories to store our results.
 
-<img="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20175155.png?raw=true">
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20175155.png?raw=true">
 
 3. It set ups the experiment, with the relevant metrics and parameters.
 4. It starts a experiment session in [MLflow](https://mlflow.org/) to save our model specifications and results.
@@ -81,7 +81,9 @@ To facilitate the tracking and history of our training sessions, another importa
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20173255.png?raw=true">
 
-By clicking on the name of the run, we can see the information that we saved for our experiment
+By clicking on the name of the run, we can see the information that we saved for our experiment:
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20174233.png?raw=true">
 
 ## Supporting Documents
 
