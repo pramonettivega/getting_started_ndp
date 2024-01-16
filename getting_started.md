@@ -31,7 +31,7 @@ Data location is facilitated through the incorporation of a search engine. As a 
 
 NDP allows users to explore and work on data by facilitating access to the NSF's cyberinfrastructure (CI) capabilities. For the case of our demonstration dataset, we are going to connect with [Nautilus](https://nationalresearchplatform.org/nautilus/), a hypercluster which facilitates the work with Big Data through [containarized](https://en.wikipedia.org/wiki/Containerization_(computing)) applications. 
 
-To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button in our dataset, which will redirect us to the JupyterHub environment. 
+To connect with Nautilus and launch a computational instance, we will start by clicking at the JupyterHub button attached to our dataset, which will redirect us to the JupyterHub environment. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-09%20211402.png?raw=true">
 
@@ -97,7 +97,7 @@ By clicking on the name of the run, we can see the information that we saved for
 
 **NOTE:** If decided to run the notebook, take into consideration that the full training under the hardware specifications defined previously might take up to three hours.
 
-After finishing our work in JupyterLab, it is important to stop our server. To do this, go to the file window in JupyterLab and select *Hub Control Panel*. This will redirect you to JupyterHub and display your running servers (in case you have more than one). Click on *Stop My Server* to stop the current server.
+After finishing our work in JupyterLab, it is important to stop our server. To do this, go to the *File* window in JupyterLab and select *Hub Control Panel*. This will redirect you to JupyterHub and display your running servers (in case you have more than one). Click on *Stop My Server* to stop the current server.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-16%20103042.png?raw=true">
 
