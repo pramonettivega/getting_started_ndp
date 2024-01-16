@@ -61,9 +61,11 @@ Once our server starts running, we will be redirected to JupyterLab, with our pe
 
 ## Performing our Analysis
 
-We are going to execute the two notebooks provided in the example. The first one that we are going to open, is *pgml_eda.ipynb*. This notebook provides a simple exploratory data analysis over the Uniform Fuels QUIC-Fire simulation data. You can either run cell by cell, or go to the *Run* window in JupyteLab and select *Run All Cells*. The notebook should generate the following charts:
+We are going to execute the two notebooks provided in the example. The first one that we are going to open, is *pgml_eda.ipynb*. This notebook provides a simple exploratory data analysis over the Uniform Fuels QUIC-Fire simulation data. You can either run cell by cell, or go to the *Run* window in JupyteLab and select *Run All Cells*. The exploratory analysis takes multiple prescribed fire simulations, defined under different conditions (wind_speed, wind_direction and surface_moisture) and show the results of those simulations on how fire progress over time. 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20172040.png?raw=true">
+
+More details can be found in the
 
 The second notebook, contains code that performs a model training, leveraging on predefined classes that you can explore on the *unet* directory. Running the notebook will perform the following tasks:
 
@@ -90,6 +92,7 @@ By clicking on the name of the run, we can see the information that we saved for
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20183823.png?raw=true">
 
 5. Produce the model and output images to store in the results directory.
+
 
 6. Send the final products to MLflow.
 
