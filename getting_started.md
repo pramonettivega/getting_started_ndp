@@ -65,17 +65,17 @@ We are going to execute the two notebooks provided in the example. The first one
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20172040.png?raw=true">
 
-The second notebook, contains code that performs a model training, leveraging on predefined classes that you can explore on the *unet* directory. The notebook performs the following tasks:
+The second notebook, contains code that performs a model training, leveraging on predefined classes that you can explore on the *unet* directory. Running the notebook will perform the following tasks:
 
-1. It loads the relevant libraries and sets up de directories to store our results.
+1. Load the relevant libraries and sets up de directories to store our results.
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20175155.png?raw=true">
 
-3. It set ups the experiment, with the relevant metrics and parameters.
-4. It starts a experiment session in [MLflow](https://mlflow.org/) to save our model specifications and results.
-5. It performs the training and testing of the model.
-6. It produces
-7. It sends the final products to MLflow.
+2. Set up the experiment, with the relevant metrics and parameters.
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20180731.png?raw=true">
+
+3. Start an experiment session in [MLflow](https://mlflow.org/) to save our model specifications and results.
 
 To facilitate the tracking and history of our training sessions, another important feature of NDP is the integration with [MLflow](https://mlflow.org/). This integration enables the logging of various training iterations, saving each generated model, along with key hyperparameters, specified metrics and relevant visualitazionts. All this information can be consulted through the MLflow [dashboard](https://ndp.sdsc.edu/mlflow). In the following, you will see on the left side, the different experiments we have 
 
@@ -84,6 +84,18 @@ To facilitate the tracking and history of our training sessions, another importa
 By clicking on the name of the run, we can see the information that we saved for our experiment:
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20174233.png?raw=true">
+
+4. Perform the training and testing of the model.
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20183823.png?raw=true"
+
+5. Produce the model and output images to store in the results directory.
+
+6. Send the final products to MLflow.
+
+<img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-15%20184846.png?raw=true">
+
+**NOTE:** If decided to run the notebook, take into consideration that the full training under the hardware specifications defined previously might take up to three hours.
 
 ## Supporting Documents
 
