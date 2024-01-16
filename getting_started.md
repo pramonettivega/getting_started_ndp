@@ -1,6 +1,6 @@
 # Getting Started with NDP
 
-This introductory guide aims to provide collaborators with a comprehensive overview of some of the key features of the National Data Platform (NDP). The exploration is complemented by a sample exploratory data analysis. By the end of this tutorial, we will accomplish the following:
+This introductory guide aims to provide collaborators with a comprehensive overview of some of the key features of the National Data Platform (NDP). The exploration is complemented by a sample exploratory data analysis and model training. By the end of this tutorial, we will accomplish the following:
 
 - Navigate the data catalog
 - Initiate a computing instance
@@ -41,7 +41,7 @@ After accessing the environment, we can log in to our designated user space usin
 
 One of the main features of NDP is the provision of an user friendly interface which facilitates the creation of a pod. After providing the required specifications, the cluster (which works under the [Kubernetes](https://kubernetes.io/) system) orchestrates the creation of a pod, which operates on the allocated hardware resources such as CPU cores, GPUs, and memory. The pod encapsulates the applications contained in the provisioned images, leveraging the specified hardware. Additionally, the cluster associates a 50GB persistent volume (PV) with the pod, ensuring that the work that we develop is seamlessly stored and persists across various sessions. 
 
-To initiate the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). It's important to bear in mind that augmenting the quantity and intricacy of these resources can lead to an extended allocation waiting time. For real-time updates on the availability of resources, we can refer to the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For our sample analysis, we set up the following specifications:
+To initiate the creation of a pod, we begin by specifying the location, amount, and type of hardware (for the case of GPU). It's important to bear in mind that augmenting the quantity and intricacy of these resources can lead to an extended allocation waiting time. For real-time updates on the availability of resources, we can refer to the [Available Resources Page](https://portal.nrp-nautilus.io/resources). For the purposes of this tutorial, we set up the following specifications:
 
 - Region: Any
 - GPU's: 1
@@ -49,17 +49,19 @@ To initiate the creation of a pod, we begin by specifying the location, amount, 
 - RAM: 16GB
 - GPU type: NVIDIA-GeForce-GTX-1080-Ti
 
-Secondly, we have the choice to mount a shared memory folder into our pod, particularly for applications utilizing PyTorch. Since our sample analysis involves the use of the PyTorch library, we must select the checkbox for this feature.
+Secondly, we have the choice to mount a shared memory folder into our pod, particularly for applications utilizing PyTorch. Since our model training involves the use of the PyTorch library, we must select the checkbox for this feature.
 
-The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) tailored for the specific requirements of the project we are working on. This ensures that the server loads all the necessary libraries and dependencies crucial for the project's execution. For this sample analysis, we have provided an image which will create a directory within JupyterLab with the data and our sample analysis Jupyter Notebook once will launch our instance. Make sure to select *Physics Guided Machine Learning Starter Code*.
+The next component we must select is an appropiate [Docker Image](https://docs.docker.com/get-started/overview/) tailored for the specific requirements of the project we are working on. This ensures that the server loads all the necessary libraries and dependencies crucial for the project's execution. For this sample tutorial, we have provided an image which will create a directory within JupyterLab with the data and our sample Jupyter Notebooks once will launch our instance. Make sure to select the *Physics Guided Machine Learning Starter Code* image.
 
-The final aspect of our resource allocation involves selecting the processor architecture. In this case, due to the utilization of CUDA in our project, we must choose an amd64 architecture. 
+The final aspect of our resource allocation involves selecting the processor architecture. In this case, due to the utilization of CUDA in our example, we must choose an amd64 architecture. 
 
-Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which in this case includes the folder with our project:
+Once our server starts running, we will be redirected to JupyterLab, with our persisted workspace, which in this case includes the folder with our project. In this case, our workspace has set up the working files for our example: 
 
 <img src="https://github.com/pramonettivega/images/blob/main/Screenshot%202024-01-11%20203016.png?raw=true">
 
-## Performing our training
+## Performing our Analysis
+
+In our analysis, we are going to perform a simple Machine Learning
 
 JupyterLab offers a series of features so we can develop our projects in an interactive environment, allowing us to explore, edit and visualize our data. To set up our workspace, we can either load the files directly into our space, or we can create new files from JupyterLab. 
 
