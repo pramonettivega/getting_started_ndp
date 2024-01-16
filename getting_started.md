@@ -8,7 +8,7 @@ This introductory guide aims to provide collaborators with a comprehensive overv
 
 ## What is NDP?
 
-NDP is a federated and extensible data ecosystem that fosters collaboration, innovation and equitable data use, leveraging existing Cyberinfrastructure (CI) capabilities. 
+NDP is a federated and extensible data ecosystem to promote collaboration, innovation and equitable use of data on top of existing Cyberinfrastructure (CI) capabilities. 
 
 ## Who can use NDP?
 
