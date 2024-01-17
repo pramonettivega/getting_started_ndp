@@ -14,6 +14,15 @@ NDP is a federated and extensible data ecosystem to promote collaboration, innov
 
 NDP serves as an open-access platform with the goal of reducing barriers to data and technology access, especially for individuals lacking expertise or resources in the field of AI. The platform is designed to cater to both the scientific and academic communities, as well as non-experts interested in exploring AI training. By fostering inclusivity in its user base, NDP aims to enhance the significance of existing data repositories, contributing to advancements in science, societal well-being, and education.
 
+## Registration
+
+To start working with NDP, new contributors must register by clicking on the *Log in/Register* in the top right of the NDP's home page. 
+
+There are 2 ways in which contributors can register to NDP:
+
+1. Clicking on the *Register* link on the bottom of the log in window, and setting up the credentials.
+2. For users with academic credentials, it is recommended to access via [*CI Logon*](https://www.cilogon.org/), by clicking on the *CI Logon* button of the log in window. This will redirect to the CI Logon log in page, in which contributors can search for their institution, and 
+
 ## Catalog
 
 One of the main features of NDP is the extensive data catalog,  which encompasses a variety of resources such as datasets, streaming data, and open knowledge networks spanning diverse scientific domains. This comprehensive catalog is further enriched by collaboration with various organizations and researchers that contribute to making data accessible through the registration service. This accessibility empowers researchers and learners to engage with the data, fostering the development of innovative analysis, modeling techniques, and applications.
